@@ -15,6 +15,8 @@
 		7EE06D201E60235100E7DDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE06D1E1E60235100E7DDC2 /* LaunchScreen.storyboard */; };
 		7EE06D2B1E60235100E7DDC2 /* runTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE06D2A1E60235100E7DDC2 /* runTimeTestTests.m */; };
 		7EE06D361E60235100E7DDC2 /* runTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE06D351E60235100E7DDC2 /* runTimeTestUITests.m */; };
+		7EE06D481E602A6600E7DDC2 /* UIFont+YYdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE06D471E602A6600E7DDC2 /* UIFont+YYdd.m */; };
+		7EE06D4B1E60410400E7DDC2 /* UILabel+YYdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE06D4A1E60410400E7DDC2 /* UILabel+YYdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		7EE06D311E60235100E7DDC2 /* runTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE06D351E60235100E7DDC2 /* runTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runTimeTestUITests.m; sourceTree = "<group>"; };
 		7EE06D371E60235100E7DDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE06D461E602A6600E7DDC2 /* UIFont+YYdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YYdd.h"; sourceTree = "<group>"; };
+		7EE06D471E602A6600E7DDC2 /* UIFont+YYdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YYdd.m"; sourceTree = "<group>"; };
+		7EE06D491E60410400E7DDC2 /* UILabel+YYdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YYdd.h"; sourceTree = "<group>"; };
+		7EE06D4A1E60410400E7DDC2 /* UILabel+YYdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YYdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				7EE06D1E1E60235100E7DDC2 /* LaunchScreen.storyboard */,
 				7EE06D211E60235100E7DDC2 /* Info.plist */,
 				7EE06D101E60235100E7DDC2 /* Supporting Files */,
+				7EE06D461E602A6600E7DDC2 /* UIFont+YYdd.h */,
+				7EE06D471E602A6600E7DDC2 /* UIFont+YYdd.m */,
+				7EE06D491E60410400E7DDC2 /* UILabel+YYdd.h */,
+				7EE06D4A1E60410400E7DDC2 /* UILabel+YYdd.m */,
 			);
 			path = runTimeTest;
 			sourceTree = "<group>";
@@ -275,6 +285,8 @@
 			files = (
 				7EE06D181E60235100E7DDC2 /* ViewController.m in Sources */,
 				7EE06D151E60235100E7DDC2 /* AppDelegate.m in Sources */,
+				7EE06D4B1E60410400E7DDC2 /* UILabel+YYdd.m in Sources */,
+				7EE06D481E602A6600E7DDC2 /* UIFont+YYdd.m in Sources */,
 				7EE06D121E60235100E7DDC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

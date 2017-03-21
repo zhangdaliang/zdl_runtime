@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "UIFont+YYdd.h"
+#import "UILabel+YYdd.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ///调用runtime
+    [UIFont reload];
+    [UILabel reloadLbColor];
     return YES;
 }
 
